@@ -47,7 +47,7 @@ details.details-block[open] > summary::before {
 }
 
 details.details-block > summary::after {
-  font-family: 'Font Awesome 6 Free';
+  font-family: inherit;
   content: "\f105"; /* Unicode for fa-angle-down */
   display: inline-block;
   transition: transform 0.2s ease; /* 添加旋转动画 */
