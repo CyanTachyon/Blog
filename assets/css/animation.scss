@@ -55,14 +55,23 @@
         animation-duration: var(--circle-time);
         animation-delay: var(--circle-delay);
         pointer-events: none;
+        transform: translateX(-50%);
 
         @for $i from 0 through 50 {
             &:nth-child(#{$i}) {
                 --circle-left: #{random_range(0%, 100%)};
-                --circle-background: rgba(#{random_range(0, 255)}, #{random_range(0, 255)}, #{random_range(0, 255)}, 0.06); // 最后一个数为透明度
+                --circle-background: rgba(#{random_range(0, 255)}, #{random_range(0, 255)}, #{random_range(0, 255)}, 0.06);
                 --circle-side-length: #{random_range(20px, 200px)};
                 --circle-time: #{random_range(10s, 45s)};
                 --circle-delay: #{random_range(-25s, 0s)};
+            }
+        }
+
+        @media (max-width: 900px) {
+            @for $i from 26 through 50 {
+                &:nth-child(#{$i}) {
+                    display: none;
+                }
             }
         }
     }
