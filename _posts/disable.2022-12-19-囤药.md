@@ -6,7 +6,7 @@ categories:
 tags:
   - 课内作业
   - 文章
-author: NullAqua
+author: CyanTachyon
 math: true
 ---
 
