@@ -6,13 +6,13 @@
     "type": "git",
     "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
   },
-  "author": "Cotes Chung",
+  "author": "CyanTachyon",
   "license": "MIT",
   "since": 2019,
   "bugs": {
     "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
+  "homepage": "https://www.tachyon.moe/",
   "scripts": {
     "build": "concurrently npm:build:*",
     "build:css": "node purgecss.js",

@@ -9,7 +9,7 @@ const SRC_PWA = `${SRC_DEFAULT}/pwa`;
 const DIST = 'assets/js/dist';
 
 const banner = `/*!
- * ${pkg.name} v${pkg.version} | © ${pkg.since} ${pkg.author} | ${pkg.license} Licensed | ${pkg.homepage}
+ * CyanTachyon's blog v${pkg.version} | © ${pkg.since} ${pkg.author} | ${pkg.license} Licensed | ${pkg.homepage}
  */`;
 const frontmatter = `---\npermalink: /:basename\n---\n`;
 const isProd = process.env.BUILD === 'production';
