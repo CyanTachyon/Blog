@@ -311,13 +311,6 @@ header {
     }
   }
 
-  @at-root .toc-border-cover {
-    @extend %top-cover;
-
-    margin-bottom: -4rem;
-    background-color: transparent;
-  }
-
   &::before {
     @extend %top-cover;
   }
