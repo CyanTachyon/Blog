@@ -42,6 +42,18 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      # 设置npm
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: build js and css
+        run: npm run build
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
