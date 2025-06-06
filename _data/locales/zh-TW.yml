@@ -30,14 +30,16 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: 本文章以 :LICENSE_NAME 授權
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+    # 本文由作者按照 :LICENSE_NAME 进行授权, 未经许可不得转载。
+    template: 本文章以 :LICENSE_NAME 授權, 未經許可不得轉載。
+    name: CC BY-NC 4.0
+    link: https://creativecommons.org/licenses/by-nc/4.0/
 
   # Displayed in the footer
   brief: 保留部份權利。
   verbose: >-
-    除非另有說明，否則本網誌的文章均由作者按照姓名標示 4.0 國際 (CC BY 4.0) 授權條款進行授權。
+    除非另有說明，否則本網誌的文章均由作者按照創用 CC 姓名標示-非商業性 4.0 國際 (CC BY-NC 4.0) 授權。
+    未經許可不得轉載。
 
 meta: 本網站使用 :PLATFORM 產生，採用 :THEME 主題
 

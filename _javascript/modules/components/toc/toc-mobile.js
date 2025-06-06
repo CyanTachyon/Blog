@@ -19,9 +19,9 @@ export class TocMobile {
     tocSelector: '#toc-popup-content',
     contentSelector: '.content',
     ignoreSelector: '[data-toc-skip]',
-    headingSelector: 'h2, h3, h4',
+    headingSelector: 'h1, h2, h3, h4',
     orderedList: false,
-    scrollSmooth: false,
+    scrollSmooth: true,
     collapseDepth: 4,
     headingsOffset: this.#barHeight
   };
