@@ -89,7 +89,7 @@ ifStatement
 whileStatement  
     : 'while' '(' expression ')' statement  
     ;  
-expressionStatement  
+expressionStatement
     : expression ';'  
     ;  
   
