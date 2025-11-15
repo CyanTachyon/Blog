@@ -10,7 +10,7 @@ math: true
 
 ## 登录
 
-在北大附中智能学伴中进入“慧问”模块，选择SubQuizAI进入。或浏览器打开[https://quiz.bdfzscc.com](https://quiz.bdfzscc.com)。
+在北大附中智能学伴中进入“慧问”模块，选择SubQuizAI进入。或浏览器打开[https://quiz.pkuschool.edu.cn](https://quiz.pkuschool.edu.cn)。
 
 点击***登录***，选择***其他登录方式***中的希悦logo，将跳转到希悦登录页面。登录希悦即可。
 
