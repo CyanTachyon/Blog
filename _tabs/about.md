@@ -6,6 +6,10 @@ order: 4
 
 ### CyanTachyon的个人博客
 
-[BluestarServer(Github)](https://github.com/BluestarServer)
-
-[BluestarServer(Web)](https://www.bluestarmc.top)
+urls:
+  - https://tachyon.moe
+  - https://tachyon.meme
+  - https://nullaqua.me
+  - https://cyantachyon.me
+  - https://bdfz.xyz
+  - https://bdfz.top

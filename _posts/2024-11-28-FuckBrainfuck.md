@@ -13,7 +13,7 @@ math: true
 
 # FuckBrainfuck
 <div class="box-warning">
-<div class="title"> 先叠甲 </div>
+<div class="title"> 作者声明 </div>
 以下内容纯属娱乐，不具有任何实际意义。我无法保证我的实现没有问题，如有问题欢迎指出。
 </div>
 ## Brainfuck简述
