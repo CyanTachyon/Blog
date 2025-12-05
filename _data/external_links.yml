@@ -8,6 +8,14 @@
   use_icon: true
   name: 此博客的评论仓库
   link: https://github.com/CyanTachyon/BlogComment
+- icon: fa-github
+  use_icon: false
+  name: XeRnHe的Blog
+  link: https://blog.xernhe.com
+- icon: fa-github
+  use_icon: false
+  name: SUEN的Blog
+  link: https://bdfz.net
 
   # 为 true 时当且仅当图片无法加载时，使用名字替代。为 false 时始终显示名字。
   # automatic_name: true
