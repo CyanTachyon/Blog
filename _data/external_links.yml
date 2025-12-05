@@ -8,12 +8,10 @@
   use_icon: true
   name: 此博客的评论仓库
   link: https://github.com/CyanTachyon/BlogComment
-- icon: fa-github
-  use_icon: false
+- use_icon: false
   name: XeRnHe的Blog
   link: https://blog.xernhe.com
-- icon: fa-github
-  use_icon: false
+- use_icon: false
   name: SUEN的Blog
   link: https://bdfz.net
 
