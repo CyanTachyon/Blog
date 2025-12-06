@@ -470,6 +470,7 @@ header {
 }
 
 .share-label {
+  min-width: max-content;
   @include mx.label(inherit, 400, inherit);
 
   &::after {
