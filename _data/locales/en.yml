@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  subdomain: Subdomain
+  subdomain: Links
   categories: Categories
   tags: Tags
   archives: Archives
