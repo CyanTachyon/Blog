@@ -1,0 +1,26 @@
+.subdomain-icon {
+  display: inline-flex;
+  align-items: center;
+
+  img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 25%;
+  }
+}
+
+.subdomain-title {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 0.5rem;
+}
+
+div.subdomain-a {
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

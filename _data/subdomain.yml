@@ -1,0 +1,30 @@
+- title: 友链
+  links:
+    - icon: XeRnHe.jpg
+      link: https://blog.xernhe.com
+      title: XeRnHe的Blog
+    - icon: suen.webp
+      link: https://bdfz.net
+      title: SUEN的Blog
+- title: 子域
+  links:
+    - icon: SubQuiz.png
+      link: https://quiz.pkuschool.edu.cn
+      title: SubQuiz
+      description: '由我研发的智能答题系统'
+    - icon: SubQuizAI.png
+      link: https://quizai.pkuschool.edu.cn
+      title: SubQuizAI
+      description: 'SubQuiz的AI功能特供版'
+    - icon: cyan.png
+      link: https://xny.bdfz.chat
+      title: 魔改新能源
+      description: '北大附中新能源魔改版'
+    - link: /teapot
+      title: "418 I'm a teapot"
+- title: 其他
+  links:
+    - title: 此博客的 Github 仓库
+      link: https://github.com/CyanTachyon/Blog
+    - title: 此博客的评论仓库
+      link: https://github.com/CyanTachyon/BlogComment

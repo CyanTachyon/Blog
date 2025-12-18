@@ -8,13 +8,13 @@ theme: jekyll-theme-chirpy
 # otherwise, the layout language will use the default value of 'en'.
 lang: zh-CN
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+# Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: CyanTachyon's Blog                          # the main title
+title: CyanTachyon                          # the main title
 
 tagline: CyanTachyon的个人博客  # it will display as the sub-title
 
@@ -35,6 +35,7 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: CyanTachyon
   email: cyan@tachyon.moe             # change to your email address
+  fediverse_handle: "@you@domain.com" # change to your fediverse handle or leave empty
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
@@ -120,7 +121,7 @@ panel:
     # 热门标签
     trending_tags: false
     # 外部链接
-    external_links: true
+    external_links: false
     # 目录
     toc: true
 
@@ -155,14 +156,14 @@ assets:
     env: production # [development | production]
 
 pwa:
-  enabled: false # The option for PWA feature (installable)
+  enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: false # The option for PWA offline cache
+    enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+      - "/teapot"
 
 paginate: 10
 
