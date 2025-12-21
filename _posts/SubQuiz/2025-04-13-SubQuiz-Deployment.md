@@ -1,5 +1,5 @@
 ---
-title: SubQuiz Docs
+title: SubQuiz 部署文档
 date: 2025-04-13 19:40:00 +0800
 author: CyanTachyon
 categories:
