@@ -17,6 +17,10 @@
       title: SubQuizAI
       description: 'SubQuiz的AI功能特供版'
     - icon: cyan.png
+      link: https://chat.bdfz.chat
+      title: ShadowedChat
+      description: '端到端加密的Web聊天。完全匿名、安全。'
+    - icon: cyan.png
       link: https://xny.bdfz.chat
       title: 魔改新能源
       description: '北大附中新能源魔改版'
