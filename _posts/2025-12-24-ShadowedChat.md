@@ -12,8 +12,9 @@ math: true
 ---
 
 实现了一个浏览器上的端到端加密的聊天。目标是极致的匿名、以及数据安全。  
-部署在了[https://chat.bdfz.chat](https://chat.bdfz.chat/)。  
-在[https://github.com/CyanTachyon/Shadowed](https://github.com/CyanTachyon/Shadowed)开源了源码。
+部署在了[https://shadowed.chat](https://shadowed.chat)。  
+[Github frontend](https://github.com/CyanTachyon/ShadowedUI)  
+[Github backend](https://github.com/CyanTachyon/Shadowed)  
 ## 如何使用？
 - 打开，先注册，输入用户密码完成注册。注意，请务必保存好你的账号密码，由于这种数据安全性的设计，只要你密码丢了，那就绝对找不回来，我也没辙。
 - 账号密码登录
