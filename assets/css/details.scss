@@ -1,5 +1,5 @@
 // details class="details-block" 样式设计
-details.details-block {
+details[blk] {
   border-radius: .25rem;
   border-left: .2rem solid var(--details-border-color);
   box-shadow: var(--language-border-color) 1px 1px 2px 1px; /* 借用了代码框的边框颜色变量 */
@@ -10,7 +10,7 @@ details.details-block {
   }
 }
 
-details.details-block > summary {
+details[blk] > summary {
   padding: .5rem 1.0rem .5rem 1.0rem;
   margin: -.6rem -1rem -.6rem -1.5rem;
   font-weight: 600;
@@ -21,14 +21,14 @@ details.details-block > summary {
   list-style: none; /* 隐藏默认的箭头 */
 }
 
-details.details-block > summary::-webkit-details-marker {
+details[blk] > summary::-webkit-details-marker {
   display: none; /* IOS 隐藏默认的箭头 */
 }
-details.details-block > summary::marker {
+details[blk] > summary::marker {
   content: none; /* 隐藏默认的箭头 */
 }
 
-details.details-block > summary::before {
+details[blk] > summary::before {
   /* 关闭状态下 */
   /* 也可以用其他符号或自定义图标，比如 Unicode 字符 */
   // content: '🙈';
@@ -37,7 +37,7 @@ details.details-block > summary::before {
   margin-right: .5rem;
   display: inline-block;
 }
-details.details-block[open] > summary::before {
+details[blk][open] > summary::before {
   /* 展开状态下 */
   /* content: '🐵';*/
   /* content: '\002B9B'; */
@@ -46,7 +46,7 @@ details.details-block[open] > summary::before {
   margin-right: .5rem;
 }
 
-details.details-block > summary::after {
+details[blk] > summary::after {
   font-family: inherit;
   content: "\f105"; /* Unicode for fa-angle-down */
   display: inline-block;
@@ -55,11 +55,11 @@ details.details-block > summary::after {
   right: 1rem; /* 调整箭头在最右边的位置 */
 }
 
-details.details-block[open] > summary::after {
+details[blk][open] > summary::after {
   transform: rotate(90deg);
 }
 
-details.details-block[open] > summary{
+details[blk][open] > summary{
   // transition: margin 200ms ease-out; /* 展开会有动画效果 */
   margin-bottom: .6rem;
 }
@@ -70,7 +70,7 @@ details.details-block[open] > summary{
 
 
 // details class = "details-inline"
-details.details-inline {
+details[inline] {
   margin-bottom: 1rem;
   padding-left: 1rem;
   border-left: 2px solid var(--blockquote-border-color);
@@ -78,29 +78,29 @@ details.details-inline {
     margin-bottom: 0;
   }
 }
-details.details-inline > summary {
+details[inline] > summary {
   color: var(--link-color);
   display: inline-block;
   line-height: normal;
   // border-bottom: 1px solid var(--link-underline-color);
 }
-details.details-inline > summary:hover {
+details[inline] > summary:hover {
   color: #d2603a; /* 鼠标悬停时的颜色 */
   border-bottom: 1px solid #d2603a;
 }
-details.details-inline > summary::marker {
+details[inline] > summary::marker {
   content: none; /* 隐藏默认的箭头 */
 }
-details.details-inline > summary::-webkit-details-marker {
+details[inline] > summary::-webkit-details-marker {
   display: none; /* IOS 隐藏默认的箭头 */
 }
-details.details-inline > summary::before {
+details[inline] > summary::before {
   content: '+';
   scale: 1.3;
   display: inline-block;
   margin-right: .4rem;
   transition: transform 0.2s ease; /* 添加旋转动画 */
 }
-details.details-inline[open] > summary::before {
+details[inline][open] > summary::before {
   transform: rotate(135deg);
 }

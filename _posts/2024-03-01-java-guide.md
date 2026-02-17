@@ -47,7 +47,7 @@ int b=a;
 a=2;
 ```
 
-<details class="details-block">
+<details blk>
 <summary>此时b是多少?</summary>
 b是1。因为int是基础类型而非引用类型，基础类型的赋值即直接复制数据，修改a与b无关
 </details>
@@ -124,7 +124,7 @@ x[114514]=10;
 println(y[114514]);
 ```
 
-<details class="details-block">
+<details blk>
 <summary>这个程序的输出?</summary>
 答案是10。因为数组类型也是引用类型，引用类型的赋值操作不会复制数据，x和y其实是同一个数组。
 </details>
@@ -200,7 +200,7 @@ x[0]=1;
 final int[] x=new int[10];
 x=new int[10];
 ```
-<details class="details-block">
+<details blk>
 <summary>答案</summary>
 第一个可以，第二个不可以。因为int[]是引用类型，final修饰的是指针本身，而不是指向的内容。
 </details>
