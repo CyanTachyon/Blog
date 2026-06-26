@@ -33,3 +33,9 @@ $code-icon-width: 1.75rem !default;
 
 $font-family-base: 'Maple Mono NF CN', 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
 $font-family-heading: 'Maple Mono NF CN', Lato, 'Microsoft Yahei', sans-serif !default;
+
+/* Theme mode settings */
+
+$theme-attr: 'data-bs-theme'; /* the attribute used to indicate the resolved theme */
+$theme-options: light, dark;
+$theme: null !default; /* set by Jekyll site configuration */

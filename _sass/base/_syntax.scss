@@ -78,7 +78,7 @@ code {
   }
 
   a > &.highlighter-rouge {
-    padding-bottom: 0; /* show link's underlinke */
+    padding-bottom: 0; /* show link's underline */
     color: inherit;
   }
 
@@ -137,7 +137,8 @@ div[class^='language-'] {
         height: v.$code-dot-size;
         border-radius: 50%;
         background-color: var(--code-header-muted-color);
-        box-shadow: (v.$code-dot-size + v.$code-dot-gap) 0 0
+        box-shadow:
+          (v.$code-dot-size + v.$code-dot-gap) 0 0
             var(--code-header-muted-color),
           (v.$code-dot-size + v.$code-dot-gap) * 2 0 0
             var(--code-header-muted-color);
@@ -218,8 +219,9 @@ div {
     @extend %rounded;
 
     border: 1px solid transparent;
-    height: v.$code-header-height;
-    width: v.$code-header-height;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.125rem;
     padding: 0;
     background-color: inherit;
 
@@ -233,6 +235,7 @@ div {
       }
 
       i {
+        font-size: 90%;
         color: var(--clipboard-checked-color);
       }
     }
