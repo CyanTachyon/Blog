@@ -22,6 +22,7 @@
 
   pre {
     margin-bottom: 0;
+    font-family: v.$font-family-code;
     font-size: v.$code-font-size;
     line-height: 1.4rem;
   }
@@ -60,6 +61,7 @@ code {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  font-family: v.$font-family-code;
   color: var(--code-color);
 
   &.highlighter-rouge {
