@@ -32,23 +32,23 @@ blockquote[class^='prompt-']{
 
 html {
     @media (prefers-color-scheme: light) {
-        &:not([data-mode]),
-        &[data-mode='light'] {
+        &:not([data-bs-theme]),
+        &[data-bs-theme='light'] {
             @include light-colors;
         }
 
-        &[data-mode='dark'] {
+        &[data-bs-theme='dark'] {
             @include dark-colors;
         }
     }
 
     @media (prefers-color-scheme: dark) {
-        &:not([data-mode]),
-        &[data-mode='dark'] {
+        &:not([data-bs-theme]),
+        &[data-bs-theme='dark'] {
             @include dark-colors;
         }
 
-        &[data-mode='light'] {
+        &[data-bs-theme='light'] {
             @include light-colors;
         }
     }
